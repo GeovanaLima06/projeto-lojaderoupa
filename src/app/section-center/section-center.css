@@ -1,0 +1,29 @@
+.banner{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.caixa-section-texto{
+    width: 100%;
+    padding: 20px;
+    margin: 15px auto;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 12px;
+}
+.novidades{
+    flex: 1 1 120px;
+    min-width: 120px;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+}
