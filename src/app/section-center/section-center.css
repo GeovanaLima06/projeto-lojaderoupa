@@ -1,0 +1,38 @@
+.banner{
+    width: 100vw;
+    max-width: none;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.caixa-section-texto{
+    width: 100%;
+    padding: 20px;
+    margin: 15px auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 12px;
+    background-color:#FFE0DB ;
+}
+.novidades{
+    flex: 1 1 120px;
+    min-width: 120px;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: bold;
+}
+
