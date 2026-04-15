@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+.header {
+  background-color:#FFE0DB;
+  padding: 15px 30px;
+}
+
+caixa-img-roupas {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.caixa-img-roupas img {
+  width: 101px;
+  height: 52px;
+  height: auto;
+  display: block;
+}
