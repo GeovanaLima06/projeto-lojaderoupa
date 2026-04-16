@@ -16,15 +16,15 @@
 
 .caixa-section-texto{
     width: 100%;
-    padding: 20px;
-    margin: 15px auto;
+    padding: 30px;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: stretch;
     gap: 12px;
-    background-color:#FFE0DB ;
+    background-color: #FFE0DB;
+;
 }
 .novidades{
     flex: 1 1 120px;
@@ -34,5 +34,7 @@
     border-radius: 6px;
     text-align: center;
     font-weight: bold;
+    background: #D6B8B4;
+
 }
 
