@@ -4,10 +4,7 @@
   box-sizing: border-box;
   font-family: Arial, sans-serif;
 }
-.header {
-  background-color:#FFE0DB;
-  padding: 15px 30px;
-}
+
 
 .secao-calcados {
     width: 100%;
@@ -16,11 +13,37 @@
     align-items: center;
     flex-direction: row;
     background-color: #FFE0DB;
+    margin: 0 auto 10px;
+    
+}
+
+.caixa-img-calcados {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+ margin: 0 auto 20px;
+}
+
+.caixa-img-calcados .titulo {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.caixa-img-calcados > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .secao-calcados img {
-  width: 101px;
-  height: 52px;
+  width: 350px;
   height: auto;
   display: block;
+  margin: 0 auto 10px;
 }

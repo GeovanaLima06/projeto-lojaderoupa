@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 
 @Component({
+  standalone: true,
   selector: 'app-secao-calcados',
   imports: [],
   templateUrl: './secao-calcados.html',
-  styleUrl: './secao-calcados.css',
+  styleUrls: ['./secao-calcados.css'],
 })
 export class SecaoCalcados {}
